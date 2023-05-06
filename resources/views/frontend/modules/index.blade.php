@@ -13,7 +13,7 @@
         </div>
         <div class="down-content">
             <span>Lifestyle</span>
-            <a href="post-details.html"><h4>Best Template Website for HTML CSS</h4></a>
+            <a href="#"><h4>Best Template Website for HTML CSS</h4></a>
             <ul class="post-info">
             <li><a href="#">Admin</a></li>
             <li><a href="#">May 31, 2020</a></li>
@@ -48,7 +48,7 @@
       </div>
       <div class="down-content">
         <span>Healthy</span>
-        <a href="post-details.html"><h4>Etiam id diam vitae lorem dictum</h4></a>
+        <a href="#"><h4>Etiam id diam vitae lorem dictum</h4></a>
         <ul class="post-info">
           <li><a href="#">Admin</a></li>
           <li><a href="#">May 24, 2020</a></li>
@@ -83,7 +83,7 @@
       </div>
       <div class="down-content">
         <span>Fashion</span>
-        <a href="post-details.html"><h4>Donec tincidunt leo nec magna</h4></a>
+        <a href="#"><h4>Donec tincidunt leo nec magna</h4></a>
         <ul class="post-info">
           <li><a href="#">Admin</a></li>
           <li><a href="#">May 14, 2020</a></li>
@@ -113,7 +113,7 @@
   </div>
   <div class="col-lg-12">
     <div class="main-button">
-      <a href="blog.html">View All Posts</a>
+      <a href="#">View All Posts</a>
     </div>
   </div>
 @endsection

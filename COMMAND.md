@@ -57,7 +57,7 @@ public function index()
     }
 ```
 
-### Download a Frontend Template Stand Blog
+### 8. Download a Frontend Template Stand Blog
 
 Frontend Template [Stand Blog](https://www.free-css.com/free-css-templates/page270/stand-blog)
 
@@ -67,4 +67,32 @@ for link all asset create a folder name backend in the public folder and copy ve
 
 {{ asset('frontend') }}/ past this code in asset and image src
 
-### Template Mastering
+### Frontend Template Mastering
+
+### Backend Template Mastering
+
+### 9. Create a Backend Controller
+
+```
+php artisan make:controller Backend/BackendController
+```
+
+### 4. Change the route
+~~Route::get('/', function () {
+    return view('welcome');
+});~~
+
+```
+Route::get('/',[FrontendController::class,'index'])->name('front.index');
+```
+
+
+### 5. Create a method in BackendController
+
+```
+public function index()
+    {
+        return view('welcome');
+    }
+```
+
